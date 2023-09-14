@@ -1,0 +1,128 @@
+/* Apply styles to the entire document */
+
+/* Body styles */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header styles */
+h2 {
+    color: #ffcc00;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Ordered list styles */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* List item styles */
+li {
+    margin: 10px 0;
+}
+
+/* Sub-list styles */
+ol ol {
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+/* Sub-list item styles */
+ol ol li {
+    margin: 5px 0;
+}
+
+/* Easy section styles */
+.easy {
+    color: #ff5733; /* Change color for Easy section */
+}
+
+/* Medium section styles */
+.medium {
+    color: #33ff57; /* Change color for Medium section */
+}
+
+/* Hard section styles */
+.hard {
+    color: #5733ff; /* Change color for Hard section */
+}
+
+/* Code styles */
+code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #444;
+    color: #ffcc00;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Code block styles */
+pre {
+    background-color: #444;
+    color: #ffcc00;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+/* Anchor (link) styles */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+/* Text input styles */
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Alert (for the alert message) styles */
+.alert {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+.header{
+    background-color: rgb(146, 18, 197);
+    color: rgb(32, 230, 230);
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bolder;
+    
+}
